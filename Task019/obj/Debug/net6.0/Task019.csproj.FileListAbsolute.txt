@@ -1,0 +1,15 @@
+E:\HomeWork\Task019\bin\Debug\net6.0\Task019.exe
+E:\HomeWork\Task019\bin\Debug\net6.0\Task019.deps.json
+E:\HomeWork\Task019\bin\Debug\net6.0\Task019.runtimeconfig.json
+E:\HomeWork\Task019\bin\Debug\net6.0\Task019.dll
+E:\HomeWork\Task019\bin\Debug\net6.0\Task019.pdb
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.csproj.AssemblyReference.cache
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.GeneratedMSBuildEditorConfig.editorconfig
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.AssemblyInfoInputs.cache
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.AssemblyInfo.cs
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.csproj.CoreCompileInputs.cache
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.dll
+E:\HomeWork\Task019\obj\Debug\net6.0\refint\Task019.dll
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.pdb
+E:\HomeWork\Task019\obj\Debug\net6.0\Task019.genruntimeconfig.cache
+E:\HomeWork\Task019\obj\Debug\net6.0\ref\Task019.dll
