@@ -10,14 +10,14 @@ Console.WriteLine($"({num1}, {num2}) -> {result}");
 
 int GetNumberUser(string message, string errorMessage)
 {
-while(true)
-{
-    Console.Write(message);
-    bool isCorrect = int.TryParse(Console.ReadLine(), out int userNumber);
-    if(isCorrect && userNumber >= 0)
-        return userNumber;
-    Console.WriteLine(errorMessage);    
-}
+    while (true)
+    {
+        Console.Write(message);
+        bool isCorrect = int.TryParse(Console.ReadLine(), out int userNumber);
+        if (isCorrect && userNumber >= 0)
+            return userNumber;
+        Console.WriteLine(errorMessage);
+    }
 
 }
 
@@ -26,7 +26,7 @@ int NumPow(int num1, int num2)
     int count = 0;
     int sum = 1;
 
-    while(count < num2)
+    while (count < num2)
     {
 
         sum = sum * num1;
@@ -37,5 +37,5 @@ int NumPow(int num1, int num2)
 
     return sum;
 
-    
+
 }
