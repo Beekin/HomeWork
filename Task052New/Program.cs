@@ -4,7 +4,7 @@ int[,] array = GetArray(rows, columns, 1, 13);
 PrintArray(array);
 
 double[] averege = GetAverege(array, 1);
-Console.WriteLine($"Среднее арифметическое каждого столбца: {String.Join("; ", averege)}.");
+Console.WriteLine($"Среднее арифметическое столбца: {String.Join("; ", averege)}.");
 
 
 int GetNumberFromUser(string message, string errorMessage)
