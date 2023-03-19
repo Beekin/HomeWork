@@ -11,7 +11,7 @@
 
 int rows = GetNumberFromUser("Укажите количество строк массива: ", "Ошибка ввода!");
 int columns = GetNumberFromUser("Укажите количество столбцов массива: ", "Ошибка ввода!");
-double[,] array = GetArray(rows, columns);
+double[,] array = GetArray(rows, columns, -5, 10, 2);
 PrintArray(array);
 //////////////////////////////////////////////////////////////////////////////////
 // Описание методов
@@ -30,15 +30,18 @@ int GetNumberFromUser(string message, string errorMessage)
     }
 }
 
-double[,] GetArray(int m, int n)
+double[,] GetArray(int m, int n, int minValue, int maxValue, int digits)
 {
     double[,] result = new double[m, n];
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
-            result[i, j] = new Random().NextDouble();
+            result[i, j] = new Random().Next(minValue, maxValue + 1);
+
+            result[i, j] = Math.Round(result[i, j], digits);
         }
+        
     }
     return result;
 }
