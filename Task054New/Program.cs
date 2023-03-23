@@ -8,12 +8,6 @@ Console.WriteLine();
 GetSortArray(array);
 PrintArray(array);
 
-
-
-
-
-
-
 int GetNumberFromUser(string message, string errorMessage)
 {
     while (true)
@@ -43,7 +37,7 @@ int[,] GetArray(int m, int n, int minValue, int maxValue)
 
 void PrintArray(int[,] inArray)
 {
-    
+
 
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
@@ -51,37 +45,34 @@ void PrintArray(int[,] inArray)
         {
             Console.Write($"{inArray[i, j]} ");
 
-            
+
         }
         Console.WriteLine();
     }
 }
 
-
 void GetSortArray(int[,] array)
 {
-   
+
     for (int i = 0; i < array.GetLength(0); i++)
-        {
+    {
         for (int j = 0; j < array.GetLength(1); j++)
 
+        {
+            for (int k = j + 1; k < array.GetLength(1); k++)
             {
 
-               for (int k = j + 1; k < array.GetLength(1); k++)
+                if (array[i, j] > array[i, k])
                 {
-                    
-                    if (array[i, j] > array[i, k])
-                    {
-                        int temp = array[i, j];
-                        array[i, j] = array[i, k];
-                        array[i, k] = temp;
-                
-                    }
- 
-                
+                    int temp = array[i, j];
+                    array[i, j] = array[i, k];
+                    array[i, k] = temp;
+
+                }
+
             }
-        
+
         }
-    
+
     }
 }
