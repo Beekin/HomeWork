@@ -1,0 +1,15 @@
+E:\HomeWork\Task056New\bin\Debug\net6.0\Task056.exe
+E:\HomeWork\Task056New\bin\Debug\net6.0\Task056.deps.json
+E:\HomeWork\Task056New\bin\Debug\net6.0\Task056.runtimeconfig.json
+E:\HomeWork\Task056New\bin\Debug\net6.0\Task056.dll
+E:\HomeWork\Task056New\bin\Debug\net6.0\Task056.pdb
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.csproj.AssemblyReference.cache
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.GeneratedMSBuildEditorConfig.editorconfig
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.AssemblyInfoInputs.cache
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.AssemblyInfo.cs
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.csproj.CoreCompileInputs.cache
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.dll
+E:\HomeWork\Task056New\obj\Debug\net6.0\refint\Task056.dll
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.pdb
+E:\HomeWork\Task056New\obj\Debug\net6.0\Task056.genruntimeconfig.cache
+E:\HomeWork\Task056New\obj\Debug\net6.0\ref\Task056.dll
